@@ -29,7 +29,7 @@ from datetime import datetime
 
 start = datetime(2011, 1, 1)
 end = datetime(2012, 1, 1)
-#beauty_print("Генерация дат концов месяцев в указанном промежуток времени:", pd.date_range(start, end, freq="BM"))
+#beauty_print("Генерация дат концов месяцев в указанном промежутке времени:", pd.date_range(start, end, freq="BM"))
 #beauty_print("Генерация дат с указанным окончанием последовательности:", pd.date_range(end=end, periods=5))
 
 #beauty_print("Генерация дат с указанием последовательности дней в виде чисел:", pd.to_datetime([1, 2, 3, 0], unit='D', origin=datetime(2012, 5, 3)))
